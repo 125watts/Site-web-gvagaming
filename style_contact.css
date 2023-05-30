@@ -1,0 +1,89 @@
+/* Code pour text du body */
+h1 {
+	background-color: rgb(255, 128, 0);
+	color: white;
+	font-family: franklin gothic;
+	border-radius: 10px;
+	position: relative;
+	top: 50px;
+	width: 70%;
+}
+
+h2 {
+	color: white;
+	text-shadow: 0px 0px 3px purple;
+	font-family: franklin gothic;
+}
+
+div p {
+	font-size: 130%;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-family: franklin gothic;
+}
+
+div {
+	display: block;
+	width: 80%;
+}
+
+/* Code pour menunav */
+#barmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: sticky;
+}
+
+#barmenu li {
+	float: left;
+	background-color: black;
+}
+
+#barmenu li:hover {
+	background-color: dimgray;
+}
+
+#barmenu a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+/* Code pour la page genre le corps visuel kwa */
+body {
+	background-color: purple;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 50px;
+	border-radius: 20px;
+	border: 3px solid white;
+}
+
+/* arrangement des div */
+#telephone {
+	display: block;
+	position: relative;
+	left: 350px;
+	bottom: 220px;
+}
+
+#mail {
+	display: block;
+	position: relative;
+	left: 720px;
+	bottom: 440px;
+}
+
+#location {
+	display: block;
+	position: relative;
+	bottom: 420px;
+}

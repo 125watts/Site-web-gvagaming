@@ -1,0 +1,81 @@
+/* Code pour text */
+h1 {
+	background-color: rgb(255, 128, 0);
+	color: white;
+	font-family: franklin gothic;
+	border-radius: 10px;
+}
+
+h2 {
+	color: white;
+	text-shadow: 0px 0px 3px purple;
+	font-family: franklin gothic;
+}
+
+div p {
+	font-size: 130%;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-family: franklin gothic;
+}
+
+div {
+	display: block;
+	width: 80%;
+}
+
+#equipe_header {
+	display: block;
+	position: relative;
+	top: 10px;
+}
+
+#equipe_header, #histoire_header, #jeux_header {
+	text-align: center;
+}
+
+/* Code pour menunav */
+#barmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: sticky;
+}
+
+#barmenu li {
+	float: left;
+	background-color: black;
+}
+
+#barmenu li:hover {
+	background-color: dimgray;
+}
+
+#barmenu a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+/* Test */
+/*
+body {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,12,0,1) 12%, rgba(34,0,255,1) 44%, rgba(255,0,245,1) 74%, rgba(255,255,255,1) 100%);
+}
+*/
+
+body {
+	background-image: url(https://www.gamesver.com/wp-content/uploads/2022/03/Famous-old-video-game-scene.png);
+}
+
+img {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	left: 300px;
+	border-radius: 10px;
+}

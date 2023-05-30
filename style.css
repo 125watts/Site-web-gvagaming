@@ -1,0 +1,96 @@
+
+/* Paramètres du menu de navigation en haut à gauche */
+#barmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: sticky;
+}
+
+#barmenu li {
+	float: left;
+	background-color: black;
+}
+
+#barmenu li:hover {
+	background-color: dimgray;
+}
+
+#barmenu a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+
+
+
+/* Information concernant logo de l'entreprise */
+#logodiv img {
+	width: 150px;
+	float: right;
+	
+}
+
+
+
+
+/* Info pour tableau de jeu php/sql */
+
+#tabjeu table {
+	position: relative;
+	top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid black 2px;
+	width: 80%;
+	border-collapse: collapse;
+	color: black;
+}
+
+#tabjeu th {
+	background-color: rgb(255, 128, 0);
+	color: white;
+	height: 50px;
+}
+
+#tabjeu td {
+	text-align: center;
+	padding: 15px;
+	width: 25%;
+	border: solid black 1px;
+	color: black;
+	background-color: white;
+
+}
+
+#tabjeu tr:hover {
+	background-color: skyblue;
+}
+
+
+
+/* Tableau ajouter pour employé */
+
+#ajouter_tab {
+	width: 20%;
+	background-color: gray;
+	display: block;
+	position: sticky;
+	left: 750px;
+	bottom: 700px;
+	border: 3px solid white;
+	text-align: center;
+}
+
+#ajouter_tab h1, label {
+	font-family: Franklin gothic;
+}
+
+
+/* Body design */
+body {
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/images1/Tetris-Logo-Wallpaper.jpg);
+}
